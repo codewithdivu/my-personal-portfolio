@@ -6,17 +6,21 @@ const MainInfo = () => {
       <div className="container" id="home">
         <div className="left-home">
           <div>
-            <p>
-              Hey
-              <img className="hello-image" src="./images/hell.gif" alt="divu" />
+            <p className="profile-txt">
+              Hey 
+              <img
+                className="hello-image"
+                src="./images/hello.gif"
+                alt="divu"
+              />
               ,<br />
               I'm <span className="my-name">Divyesh Mavadiya</span> <br />
-              <span>And im into Web Development!</span>
+              <span className="about-txt">And i am into Web Development!</span>
               <p className="about-me">
                 I have recently started my journey as a Web Developer. Web
                 Development has
                 <br />
-                been into my interest since 2018 and am currently focusing more
+                been into my interest since 2021 and am currently focusing more
                 on Full-Stack Web Development!
                 <br />
                 My interest's? Making faster, user-friendly, smooth UI and

@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-size: 142.5%; */
+  /* font-size: 62.5%; */
   font-family: "Heebo", sans-serif;
 }
 
@@ -43,7 +43,7 @@ ul {
 }
 .navbar-link {
   cursor: pointer;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
 }
 
 /* MAIN INFO CSS  */
@@ -53,7 +53,7 @@ ul {
   justify-content: space-between;
   padding: 10px;
   background-color: cornflowerblue;
-  padding-top: 10vmax;
+  padding-top: 6vmax;
   padding-left: 10vw;
   padding-right: 10vw;
   padding-bottom: 50px;
@@ -68,6 +68,27 @@ ul {
 .right-home {
   text-align: center;
   padding: 20px;
+}
+
+.hello-image {
+  width: 3vmax;
+}
+
+.profile-txt {
+  font-size: 3vmax;
+  /* text-align: left; */
+  /* padding-bottom: 10px; */
+}
+
+.my-name {
+  font-size: 4vmax;
+}
+
+.about-me {
+  font-size: 1vmax;
+}
+.about-txt {
+  font-size: 2vmax;
 }
 
 .profile-image {
