@@ -97,10 +97,68 @@ ul {
   width: 80vmin;
   max-width: 100%;
 }
-.social-menu ul{
+.social-menu ul {
   display: flex;
 }
 .social-menu ul li {
-  margin: 20px;
-  padding-left: 1rem;
+  margin: 20px 40px 20px 0;
+  font-size: 160%;
+}
+
+/* skills */
+
+.skills {
+  /* margin: 0; */
+  min-height: 100vh;
+  padding-top: 10vmax;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 50px;
+  background-color: darkslateblue;
+}
+
+.skill-header {
+  display: flex;
+  /* position: absolute; */
+  /* margin-bottom: 35vmax; */
+  max-height: 100%;
+  justify-content: center;
+}
+.skill-div {
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 78vmax;
+  height: 35vmax;
+}
+
+.first-row-skill,
+.second-row-skill {
+  margin: auto;
+  display: flex;
+  gap: 3vmax;
+}
+
+.first-row-skill div,
+.second-row-skill div {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15vmax;
+  height: 12vmax;
+}
+.first-row-skill p,
+.second-row-skill p {
+  font-size: 1.5vmax;
+  display: flex;
+  justify-content: center;
+}
+
+.skills img {
+  max-width: 100%;
+  width: 4vmax;
+  height: 4vmax;
+  margin: auto;
 }
