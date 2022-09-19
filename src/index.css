@@ -1,6 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap");
-/* font-family: 'Heebo', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Heebo:wght@400;500&display=swap");
 
 * {
   margin: 0;
@@ -82,6 +81,7 @@ ul {
 
 .my-name {
   font-size: 4vmax;
+  font-family: "Caveat", cursive;
 }
 
 .about-me {
@@ -96,4 +96,11 @@ ul {
   min-width: 20px;
   width: 80vmin;
   max-width: 100%;
+}
+.social-menu ul{
+  display: flex;
+}
+.social-menu ul li {
+  margin: 20px;
+  padding-left: 1rem;
 }
