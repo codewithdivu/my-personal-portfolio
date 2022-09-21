@@ -125,6 +125,7 @@ ul {
   justify-content: center;
 }
 .skill-div {
+  border-radius: 200px;
   background-color: brown;
   display: flex;
   flex-direction: column;
@@ -161,4 +162,87 @@ ul {
   width: 4vmax;
   height: 4vmax;
   margin: auto;
+}
+
+/* projects */
+
+.project {
+  min-height: 100vh;
+  padding-top: 10vmax;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 50px;
+}
+
+/* EDUCATION  */
+
+.education {
+  min-height: 100vh;
+  padding-top: 10vmax;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 50px;
+  background-color: darkgray;
+}
+.education-heading {
+  display: flex;
+  max-height: 100%;
+  justify-content: center;
+}
+.education-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 79vw;
+  height: 42vmax;
+  border-radius: 1vmax;
+}
+.education-subdiv {
+  margin-top: 2vmax;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.093),
+    rgba(255, 255, 255, 0)
+  );
+  box-shadow: 0 8px 32px 0 rgba(50, 122, 181, 0.37);
+  width: 75vw;
+  height: 11vmax;
+  border-radius: 1vmax;
+  transition: all 0.3s ease-in-out 0.1s;
+  gap: 30px;
+}
+.education-subdiv img {
+  height: 100%;
+  width: 11vw;
+  margin-left: 8px 0 8px 8px;
+  background-color: white;
+  border-radius: 20px;
+}
+.education-subdiv div {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.education-subdiv p {
+  text-align: left;
+  margin-top: 12px;
+}
+
+.education-div span {
+  color: rgba(63, 46, 177, 0.607);
+  font-size: 1.3vmax;
+}
+.education-status {
+  font-size: 1vmax;
+  background-color: rgba(1, 252, 10, 0.139);
+  width: max-content;
+  padding-left: 1vmax;
+  padding-right: 1vmax;
+  border-radius: 1vmax;
+}
+
+.persuing {
+  background-color: rgba(252, 34, 1, 0.139);
 }
