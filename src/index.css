@@ -168,7 +168,7 @@ ul {
 
 .first-row-skill div,
 .second-row-skill div {
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   justify-content: center;
