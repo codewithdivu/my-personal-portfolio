@@ -104,7 +104,7 @@ const MainInfo = () => {
           </div>
         </div>
         <div className="right-home">
-          <img className="profile-image" src="./images/divyesh.jpg" alt="" />
+          <img className="profile-image" src="./images/divyesh.jpg" alt="divyesh" />
         </div>
       </div>
     </>
