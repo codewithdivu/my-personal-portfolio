@@ -1,0 +1,6 @@
+import { Icon } from '@iconify/react';
+
+<Icon icon="simple-icons:codechef" />
+<Icon icon="simple-icons:sololearn" />
+<Icon icon="simple-icons:leetcode" />
+<Icon icon="fa-brands:hackerrank" />
