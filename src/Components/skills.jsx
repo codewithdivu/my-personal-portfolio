@@ -17,17 +17,17 @@ const Skills = () => {
             </div>
             <div>
               <img src="./images/javascript.png" alt="javascript" />
-              <p>JAVASCRIPT</p>
+              <p>JavaScript</p>
             </div>
           </div>
           <div className="second-row-skill">
             <div>
               <img src="./images/react.png" alt="react" />
-              <p>REACT</p>
+              <p>ReactJS</p>
             </div>
             <div>
               <img src="./images/python.png" alt="python" />
-              <p>PYTHON</p>
+              <p>Python</p>
             </div>
             <div>
               <img src="./images/cpp.png" alt="cpp" />

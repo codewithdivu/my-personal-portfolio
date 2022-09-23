@@ -40,9 +40,9 @@ const MainInfo = () => {
                   deleteSpeed={50}
                   delaySpeed={1000}
                   words={[
+                    "Student",
                     "Software Developer",
-                    "Web Developer",
-                    "Full-stack Developer",
+                    "Full-Stack Developer",
                   ]}
                 />{" "}
               </span>
