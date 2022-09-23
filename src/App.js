@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter } from "react-router-dom";
 import Contact from "./Components/contact";
 import Education from "./Components/education";
 import MainInfo from "./Components/mainInfo";
@@ -9,12 +10,14 @@ import Skills from "./Components/skills";
 const App = () => {
   return (
     <>
-      <Navbar />
-      <MainInfo />
-      <Skills />
-      <Projects />
-      <Education />
-      <Contact />
+      <BrowserRouter>
+        <Navbar />
+        <MainInfo />
+        <Skills />
+        <Projects />
+        <Education />
+        <Contact />
+      </BrowserRouter>
     </>
   );
 };

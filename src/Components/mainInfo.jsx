@@ -1,6 +1,6 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-// import "react-simple-typewriter/dist/index.css";
+import { Link } from "react-router-dom";
 
 const MainInfo = () => {
   return (
@@ -62,43 +62,43 @@ const MainInfo = () => {
           <div className="social-menu">
             <ul>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/divyesh-mavadiya-a8a995201/"
+                <Link
+                  to="https://www.linkedin.com/in/divyesh-mavadiya-a8a995201/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fab fa-linkedin-in" />
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="https://github.com/codewithdivu"
+                <Link
+                  to="https://github.com/codewithdivu"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fab fa-github" />
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="https://www.instagram.com/codewithdivu/"
+                <Link
+                  to="https://www.instagram.com/codewithdivu/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fab fa-instagram" />
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="https://twitter.com/Divyesh_017"
+                <Link
+                  to="https://twitter.com/Divyesh_017"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fab fa-twitter" />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

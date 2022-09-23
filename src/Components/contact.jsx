@@ -1,5 +1,5 @@
 import React from "react";
-import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -7,7 +7,7 @@ const Contact = () => {
       <section className="contact">
         <div className="contact-div">
           <div className="contact-img-div">
-            <img className="contact-img" src="./images/contact.png" />
+            <img className="contact-img" src="./images/contact.png" alt='contact' />
           </div>
         </div>
         <div className="form-div">
@@ -25,13 +25,13 @@ const Contact = () => {
                 <textarea id="message"></textarea>
                 <label>Enter your message*</label>
               </div>
-              <a id="submit">
+              <Link id="submit">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 Submit
-              </a>
+              </Link>
             </form>
           </div>
         </div>
